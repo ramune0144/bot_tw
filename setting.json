@@ -1,8 +1,8 @@
 {
-  "BOT_NICK": "",
-  "CLIENT_ID": "",
-  "TMI_TOKEN": "",
-  "CHANNEL": "",
-  "CLIENT_SECRET":"",
+  "BOT_NICK": "ramut_bot",
+  "CLIENT_ID": "o3h1lqh1nj9b2vkc748vrdkg8s4tfk",
+  "TMI_TOKEN": "oauth:076f02sbqpepm0z5socee4kc2jtg8m",
+  "CHANNEL": "muntish",
+  "CLIENT_SECRET":"9ku1naay8kleppah8ud0dvs59d7h5m",
   "BOT_PREFIX":"!"
 }
