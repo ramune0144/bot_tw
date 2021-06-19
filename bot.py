@@ -39,25 +39,9 @@ async def event_usernotice_subscription(metadata):
     print(metadata)
 
 #ช้าเกินไม่ใช้-*-
-'''
-@bot.event
-async def event_userstate(user):
-    print(user)
-'''
-#
 
-@bot.command(name='point')
-async def payday(ctx):
-    if ctx.author.name.lower() == channel or ctx.author.name.lower() == 'lamut_4480':  # only allow admin to execute
-        argument = ctx.content.split()
-        
-        chatterList  = len(await get_chatters(channel))
-        try:
-            coin = int(argument[1])
-        except:
-            coin = 1
-        #user_list = await get_chatters()
-        await ctx.send(f'คนดู {chatterList} คน ได้รับ {coin} point')
+
+
 
 
 if __name__ == "__main__":
